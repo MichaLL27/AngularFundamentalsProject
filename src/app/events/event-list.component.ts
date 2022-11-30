@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ToastrService } from '../common/toastr.service';
 import { EventService } from './shared/events.service';
 import { ActivatedRoute } from '@angular/router';
+import { IEvent } from './shared/index';
 
 declare let toastr: any;
 
