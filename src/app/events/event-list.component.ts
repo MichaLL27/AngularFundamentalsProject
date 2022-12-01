@@ -23,7 +23,7 @@ declare let toastr: any;
   `,
 })
 export class EventListComponent implements OnInit {
-  events: any;
+  events: IEvent[] | undefined;
   constructor(
     private eventService: EventService,
     private toastr: ToastrService,

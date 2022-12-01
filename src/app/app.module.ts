@@ -25,7 +25,7 @@ import { Error404Component } from './error/404.component';
     EventListComponent,
     EventThumbnailComponent,
     EventDetailsComponent,
-    NavBarComponent, 
+    NavBarComponent,
     CreateEventComponent,
     Error404Component,
   ],
