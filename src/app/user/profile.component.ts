@@ -25,6 +25,7 @@ export class ProfileComponent implements OnInit {
       formValues.firstName,
       formValues.lastName
     );
+    this.router.navigate(['events']);
   }
 
   cancel() {
