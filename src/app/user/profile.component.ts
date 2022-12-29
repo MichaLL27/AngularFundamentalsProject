@@ -70,5 +70,6 @@ export class ProfileComponent implements OnInit {
   }
   validateLastName() {
     return this.lastName.valid || this.lastName.untouched;
+    console.log('hello');
   }
 }
